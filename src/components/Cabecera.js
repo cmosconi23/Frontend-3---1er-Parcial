@@ -13,8 +13,8 @@ const Cabecera = ({total}) => {
 
   return (
     <header>
-        <h1>Carrito de compras</h1>
-        <p>Cantidad de productos<span>{total}</span></p>        
+        <h1>Carrito de Compras</h1>
+        <p>Cantidad de Productos: <span>{total}</span></p>        
     </header>
 
   )

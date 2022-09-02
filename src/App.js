@@ -20,8 +20,8 @@ function App() {
   
   return (
     <div className="App">
-      <Cabecera total={totalCounter} />
-      <Listado functionAmount={increaseItem} />
+      <Cabecera total={totalCounter}/>
+      <Listado functionAmount={increaseItem}/>
     </div>
   );
 }
