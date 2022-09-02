@@ -11,6 +11,7 @@
 
 import { useState } from "react";
 
+
 export default function Item({name, description, stock, functionItem}) {
 
   const [counter, setCounter] = useState(0)
@@ -21,6 +22,7 @@ export default function Item({name, description, stock, functionItem}) {
     setCounter(counter)
   }
   
+
   return (
     <div className='producto'>
       <h3>{name}</h3>

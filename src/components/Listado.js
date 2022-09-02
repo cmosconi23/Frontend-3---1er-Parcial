@@ -20,4 +20,5 @@ const Listado = ({functionAmount}) => {
   )
 }
 
+
 export default Listado;
